@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise</title>
+</head>
+<style>
+
+    .container{
+
+        width: 100%;
+       background-image: linear-gradient(to left,coral , coral);
+        border: 1px solid black;
+        height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;
+
+    }
+.items{
+height: 300px;
+
+border: 1px solid white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#box1{
+    width: 300px;
+}
+#box2{
+    width: 300px;
+}
+#box3{
+    width: 300px;
+}
+
+@media (max-width:500px) {
+    .container{
+        height: 100%;
+
+    }
+    
+
+}
+
+
+@media (max-width:500px){
+#box1{
+    background-color: black;
+}
+
+    
+}
+
+
+</style>  
+
+
+<body>
+    <div class="container">
+
+        <div class="items"  id="box1">
+        
+        <h1>hello</h1>
+        
+        </div>
+        <div class="items"   id="box2" style="background-image: linear-gradient(to right,rgb(199, 92, 92), rgb(49, 49, 4));">
+        
+        
+        
+        </div>
+        <div class="items"   id="box3" style="background-image: linear-gradient(to right,rgb(24, 5, 43), rgb(49, 49, 4));">
+        
+        
+        </div>
+
+    </div>
+</body>
+</html>
