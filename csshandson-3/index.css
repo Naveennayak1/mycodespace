@@ -1,0 +1,295 @@
+body {
+    background-color: rgb(104, 104, 104);
+}
+
+header {
+
+    height: 180px;
+}
+
+.header {
+    width: 30%;
+    height: 88%;
+    border: 10px solid red;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px purple;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.text h1 {
+    text-align: center;
+    margin: 5px auto;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(131, 11, 81);
+    text-shadow: 2px 2px 4px rgb(78, 5, 29);
+
+}
+
+.text {
+    padding: 15px;
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .header {
+        width: 70%;
+        height: 90%;
+        border: 10px solid red;
+        margin: 0 auto;
+    }
+
+    .header h1 {
+        text-align: center;
+        margin: 5px 0;
+
+    }
+
+    .section {}
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .mini {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.section {
+
+    width: 98%;
+    border: 10px solid green;
+    margin: 0;
+    height: 600px;
+
+}
+
+.one {
+    height: 200px;
+    width: 220px;
+    border: 10px solid red;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 25px;
+    float: left;
+    clear: both;
+
+}
+
+.one h1 {
+    text-align: center;
+    color: rgb(34, 5, 22);
+    text-shadow: 1px 1px 4px rgb(78, 5, 29);
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+
+.two {
+    height: 200px;
+    width: 220px;
+    border: 10px solid red;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 25px;
+    float: right;
+    margin-right: 50px;
+}
+
+.two img {
+    padding: 40px 10px;
+
+}
+
+
+.three {
+    height: 250px;
+    width: 220px;
+    border: 10px solid red;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 25px;
+    float: left;
+    clear: left;
+    margin-top: 80px;
+
+}
+.three h1{
+
+    color: rgb(34, 5, 22);
+    text-shadow: 1px 1px 4px rgb(78, 5, 29);
+    text-transform: capitalize;
+    font-size: 29px;
+}
+
+.four {
+    height: 250px;
+    width: 220px;
+    border: 10px solid red;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 25px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+   
+    
+}
+
+.four h1{
+    margin: 0;
+    color: rgb(34, 5, 22);
+    text-shadow: 1px 1px 4px rgb(78, 5, 29);
+    text-transform: capitalize;
+    font-size: 29px;
+text-align: center;
+padding: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.form h1{
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+
+    
+}
+#rate::placeholder{
+   text-align: center;
+}
+#rate{
+    width: 100px;
+}
+
+
+#btn{
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    box-shadow: 2px  2px 2px red;
+}
+
+
+.mini {
+
+    margin-top: 50px;
+
+}
+
+.center {
+
+    width: 40%;
+    height: 70px;
+    border: 10px solid red;
+    position: fixed;
+    top: 550px;
+    left: 370px;
+    background-color: greenyellow;
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 10px;
+
+
+}
+
+.center{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+
+.center h1{
+
+font-size: 20px;
+font-style: italic;
+color: red;
+text-align: center;
+
+}
+
+.left h1{
+margin-top: 30px;
+font-size: 22px;
+font-weight: bolder;
+
+}
+.right{
+    margin: 0;
+}
+
+section{
+    height: 600px;
+    width: 55%;
+    margin: 0 auto;
+    border: 10px solid purple;
+    margin-top: 33px;
+    background-color: green;
+    text-align: center;
+}
+section h1{
+ font-size: 30px;
+ text-transform: capitalize;   
+}
+
+.child1{
+    background-color: rgb(224, 202, 90);
+    width: 49%;
+    height: 250px;
+    float: left;
+    margin-right: 3px;
+    text-overflow: ellipsis;
+    text-align: center;
+    line-height: 30px;
+   
+}
+.child2{
+    background-color: rgb(224, 202, 90);
+    width: 49%;
+    height: 250px;
+    float: right;
+    font-size: 15px;
+    font-style: italic;
+}
+.child3{
+    background-color: rgb(224, 202, 90);
+    width: 720px;
+    height: 250px;
+    float: right;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+.child3 pre{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
